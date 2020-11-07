@@ -104,6 +104,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
+envs/dev/
+envs/prod/
+envs/other/
 env/
 venv/
 ENV/
@@ -128,5 +131,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# self
+# Pycharm
 .idea/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+
