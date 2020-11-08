@@ -11,7 +11,7 @@ if (mode === 'production') {
 } else if (mode === 'test') {
   process.env.PUBLIC_URL = 'http://rey-test.dxapp.net'  // 测试环境
 } else if (mode === 'dev') {
-  process.env.PUBLIC_URL = 'http://play-total-dev.dxapp.net/v0.0.1' // 开发环境
+  process.env.PUBLIC_URL = 'http://play-total-dev.dxapp.net/v0.0.2' // 开发环境
 } 
 
 // Makes the script crash on unhandled rejections instead of silently
